@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+:root{
+    --main-color: #FFFF;
+    --bg-color:#cccccc;
+    --text-color: #212529;
+}
+body{
+    background-color: var(--bg-color);
+    padding: 10px 0;
+    height: 100vh;
+}
+.container1{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    border-radius: 3px;
+    border: 1px solid #a5a5a5;
+}
+.container2 , .container3{
+    display: inline-block;
+    height: 100%;
+}
+/* box photo */
+.container2{
+    padding-top: 50px;
+    width: 40%;
+    position: relative;
+}
+.container2-1{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.div-name .name{
+    font-size: 1.5em;
+    text-transform:uppercase;
+}
+.div-name{
+    margin-bottom: 15px;
+}
+.div-img{
+    width: 90%;
+    height: 150px;
+    background-image: url(../images/hamed1.jpg);
+    background-size: 100%;
+    margin-bottom: 35px;
+}
+.details{
+    font-size: .8em;
+}
+.line{
+    margin-bottom: 5px;
+}
+.title-details{
+    font-size: 1.21em;
+    padding-top: 10px;
+    
+}
+.details-address{
+    padding-bottom: 5px;
+}
+.d-email{
+    padding-bottom: 5px;
+}
+/* ---------------------- */
+/* box text */
+.container3{
+    float: right;
+    width: 60%;
+    background-color: var(--main-color);
+
+}
+
+.container3-1{
+    font-size: .8em;
+    width: 86%;
+    height: 100%;
+    margin: auto;
+    padding: 40px 0;
+}
+.p-text{
+    text-align: justify;
+}
+.list1 , .list2{
+    display: inline-block;
+    padding-left: 20px;
+    line-height: 18px;
+}
+.list2{
+    padding-left: 50px;
+}
+.shapter{
+    margin-bottom: 30px;
+}
